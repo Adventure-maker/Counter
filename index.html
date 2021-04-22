@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font acme -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Counter App</title>
+</head>
+<body>
+    <h1>Counter App</h1>
+    <div id="container">
+        <p>
+            Count  Value:
+            <span id="count">0</span>
+        </p>
+        <div class="d-flex justify-content-around mt-5 mb-4">
+            <button class="btn bg-success text-white w-25" id="increase">Increment</button>
+            <button class="btn bg-primary text-white w-25" id="reset">Reset</button>
+            <button class="btn bg-danger text-white w-25" id="decrease">Decrement</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
